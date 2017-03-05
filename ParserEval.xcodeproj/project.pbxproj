@@ -15,7 +15,7 @@
 		694A98F71E6CB3CD0006EA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694A98F61E6CB3CD0006EA1F /* Assets.xcassets */; };
 		694A98FA1E6CB3CD0006EA1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694A98F81E6CB3CD0006EA1F /* LaunchScreen.storyboard */; };
 		694A99051E6CB3CD0006EA1F /* ParserEvalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694A99041E6CB3CD0006EA1F /* ParserEvalTests.swift */; };
-		694A99101E6CB6480006EA1F /* json.json in Resources */ = {isa = PBXBuildFile; fileRef = 694A990F1E6CB6480006EA1F /* json.json */; };
+		69A198A31E6CC358002E918E /* json.json in Resources */ = {isa = PBXBuildFile; fileRef = 69A198A21E6CC358002E918E /* json.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,7 @@
 		694A99001E6CB3CD0006EA1F /* ParserEvalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParserEvalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		694A99041E6CB3CD0006EA1F /* ParserEvalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserEvalTests.swift; sourceTree = "<group>"; };
 		694A99061E6CB3CD0006EA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		694A990F1E6CB6480006EA1F /* json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json.json; sourceTree = "<group>"; };
+		69A198A21E6CC358002E918E /* json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json.json; sourceTree = "<group>"; };
 		7CAB8C96A0ACB70873B20633 /* Pods_ParserEval.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParserEval.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAE2892413E66F2908908F0 /* Pods-ParserEvalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParserEvalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParserEvalTests/Pods-ParserEvalTests.release.xcconfig"; sourceTree = "<group>"; };
 		FE223201C4B1933D600E1147 /* Pods_ParserEvalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParserEvalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,7 +115,7 @@
 		694A99031E6CB3CD0006EA1F /* ParserEvalTests */ = {
 			isa = PBXGroup;
 			children = (
-				694A990F1E6CB6480006EA1F /* json.json */,
+				69A198A21E6CC358002E918E /* json.json */,
 				694A99041E6CB3CD0006EA1F /* ParserEvalTests.swift */,
 				694A99061E6CB3CD0006EA1F /* Info.plist */,
 			);
@@ -232,7 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				694A99101E6CB6480006EA1F /* json.json in Resources */,
+				69A198A31E6CC358002E918E /* json.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
