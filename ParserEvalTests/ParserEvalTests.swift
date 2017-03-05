@@ -7,30 +7,42 @@
 //
 
 import XCTest
-@testable import ParserEval
+@testable import SwiftyJSON
+@testable import JJson
 
 class ParserEvalTests: XCTestCase {
     
+    var data: Data!
+    var jJSON: JJSON!
+    var swiftyJSON: JSON!
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        data = loadData(forFilename: "json")
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
+    func testJJsonConstructorPerformance() {
         self.measure {
-            // Put the code you want to measure the time of here.
+            self.jJSON = JJSON(data: self.data)
         }
     }
     
+    func testSwiftyJSONConstructorPerformance() {
+        self.measure {
+          self.swiftyJSON = JSON(data: self.data)
+        }
+    }
+    
+    func loadData(forFilename fileName: String) -> Data? {
+        if let url = Bundle(for: self.classForCoder).url(forResource: fileName, withExtension: "json") {
+            if let data = try? Data(contentsOf: url) {
+                return data
+            }
+        }
+        return nil
+    }
 }

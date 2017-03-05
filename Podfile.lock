@@ -1,0 +1,15 @@
+PODS:
+  - JJson (0.1.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - JJson
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  JJson: c0935081bfbbb5e6262cced6d8ac4de859d0cbed
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: a618fcf0d7db20e95d2b0a93b220e53519c355df
+
+COCOAPODS: 1.2.0
