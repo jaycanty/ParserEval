@@ -7,7 +7,7 @@ I was inspired by this [talk](https://realm.io/news/swift-summit-anthony-levings
 
 Then I grew curious and wanted to test my parser's performance versus my favorite parser, [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON).  The tests are quite naive, SwiftyJSON does a whole heck of a lot more than JJson.  
 
-#####I tested:
+####Tests
 
 - Initialization
 - Iterating on an array and accessing objects data
