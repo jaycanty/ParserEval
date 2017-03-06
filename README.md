@@ -5,7 +5,9 @@
 
 I was inspired by this [talk](https://realm.io/news/swift-summit-anthony-levings-json-type-safety/) and set out to create a JSON parser using an enum, [here](https://github.com/jaycanty/JJson).  
 
-Then I grew curious and wanted to test my parser's performance versus my favorite parser, [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON).  The tests are quite naive, SwiftyJSON does a whole heck of a lot more than JJson.  I tested:
+Then I grew curious and wanted to test my parser's performance versus my favorite parser, [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON).  The tests are quite naive, SwiftyJSON does a whole heck of a lot more than JJson.  
+
+#####I tested:
 
 - Initialization
 - Iterating on an array and accessing objects data
