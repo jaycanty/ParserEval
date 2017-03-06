@@ -22,6 +22,7 @@ Then I grew curious and wanted to test my parser's performance versus my favorit
 | Init+Access         | 0.047    |  0.167   | +3.5X   |
 | Init+Partial Access | 0.042    |  0.080   | +1.9X   |
 
+> Results are in seconds
 
 From my tests. SwiftyJSON Constructor is much faster, but it seems once initialized, JJson will parse the results quicker and overall JJson is quicker.  When selecting partial data from the objects, SwiftyJSON gets closer to JJson.
 
